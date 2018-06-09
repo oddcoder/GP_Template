@@ -1,11 +1,14 @@
 # My Graduation Project Thesis template
 
 ## why would you use it ?
-The editor (person who is responsible in writing stuff) will not have to work with Latex,
-instead he will be dealing with markdown files just like this readme
+
+The editor (person who is responsible in editing text) will not have to work
+with Latex, instead he will be dealing with markdown files just like this
+read-me.
 
 ## But why bother, google docs is there.
-quoted from stack exchange
+
+quoted from stack exchange:
 > One of the advantages of LaTeX over other more traditional systems is the high
 > typographical quality of the documents that you'll be able to produce. This is
 > particularly true for documents that are heavy on mathematics, but documents
@@ -24,13 +27,13 @@ quoted from stack exchange
 > whatever. This structured approach helps when you want to do things that are repetitive,
 > as the formatting is always taken care of 'behind the scenes'.
 
-# So I am going to type latex?
+## So I am going to type latex?
 
 No, that is where this template goes in :). you type Markdown and let the magic happens
 Mark down will get converted to latex and then to PDF generating a beautiful looking
 [PDF file](template.pdf).
 
-# so that is about latex, now why would I use Markdown instead ?
+## so that is about latex, now why would I use Markdown instead ?
 
 To create simple document with title in markdown it will look like this:
 
@@ -78,11 +81,13 @@ if you don't, you can completely avoid latex, but it will be the best available 
 when writing math equations (embdded inside the markdown), other options is to
 use mathjax.
 
-# So how can I use it?
+## So how can I use it?
+
 Just add some chapters to `chapters` folder, pictures to `pictures` folder.
 If you got some references put it in `thesis.bib` file
 
-# How is the project structured?
+## How is the project structured?
+
 ```
 ├── chapters			This folder holds all document sources
 │   ├── 0100-title-page.md
@@ -101,13 +106,13 @@ If you got some references put it in `thesis.bib` file
 └─── .gitlab-ci.yml		CI file used to generate pdf when using gitlab
 ```
 
-# How to get the pdf out?
+## How to get the pdf out?
 
 On your typical linux machine you will need to install many packages
 
 specifically texlive, pandoc, xelatex.
 
-## for ubuntu
+### Ubuntu
 
 Never tested
 ```bash
@@ -115,7 +120,7 @@ root # apt-get update
 root # apt-get install texlive-latex-base texlive-latex-extra texlive-xetex pandoc make zip
 ```
 
-## for fedora
+### Fedora
 
 ```bash
 root # dnf -y update && dnf clean all
@@ -124,12 +129,19 @@ root # dnf -y install texlive-collection-latexrecommended texlive-collection-lat
 root # dnf -y install texlive-collection-bibtexextra texlive-collection-latexextra
 root # dnf -y install texlive-xetex-def texlive-collection-xetex
 ```
+### Add you distro here :)
+
+Here is me building the project on my own machine locally after installing all needed dependencies:
+[![asciicast](https://asciinema.org/a/enKBDkTHHnM3QEPK3DbrWgTBu.png)](https://asciinema.org/a/enKBDkTHHnM3QEPK3DbrWgTBu)
 
 
-The good news is that **you don't have to install anything locally**! Actually you are encouraged not to.
+The good news is that **you don't have to install anything locally**! Actually
+you are encouraged not to.
 
 You can clone the project from [gitlab](https://gitlab.com/oddcoder/GP_Template)
 and it will generate the pdf to you on every edit the repo automatically :)
 
-Here is me building the project on my own machine locally:
-[![asciicast](https://asciinema.org/a/enKBDkTHHnM3QEPK3DbrWgTBu.png)](https://asciinema.org/a/enKBDkTHHnM3QEPK3DbrWgTBu)
+![downloading pdf from gitlab](gitlab.png)
+
+
+
