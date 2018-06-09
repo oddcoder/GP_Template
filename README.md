@@ -1,18 +1,18 @@
 # My Graduation Project Thesis template
 
-## why would you use it ?
+## why would you use it?
 
 The editor (person who is responsible in editing text) will not have to work
-with Latex, instead he will be dealing with markdown files just like this
+with Latex. Instead, he will be dealing with markdown files just like this
 read-me.
 
-## But why bother, google docs is there.
+## Why bother, google docs is there.
 
 quoted from stack exchange:
 > One of the advantages of LaTeX over other more traditional systems is the high
-> typographical quality of the documents that you'll be able to produce. This is
-> particularly true for documents that are heavy on mathematics, but documents
-> for any other area could also take advantage of these qualities.
+> typographical quality of the documents that you will be able to produce. This
+> is particularly true for documents that are heavy on mathematics, but
+> documents for any other area could also take advantage of these qualities.
 
 > A less obvious advantage, but much more important, is that LaTeX allows you to
 > clearly separate the content from the format of your document. As a writer
@@ -27,13 +27,13 @@ quoted from stack exchange:
 > whatever. This structured approach helps when you want to do things that are repetitive,
 > as the formatting is always taken care of 'behind the scenes'.
 
-## So I am going to type latex?
+## So, I am going to type latex?
 
-No, that is where this template goes in :). you type Markdown and let the magic happens
-Mark down will get converted to latex and then to PDF generating a beautiful looking
-[PDF file](template.pdf).
+No, that is where this template goes in :). You are going to type Markdown and
+let the magic happens Mark down will get converted to latex and then to PDF
+generating a beautiful looking [PDF file](template.pdf).
 
-## so that is about latex, now why would I use Markdown instead ?
+## so that is about latex, now why would I use Markdown instead?
 
 To create simple document with title in markdown it will look like this:
 
@@ -61,7 +61,7 @@ And this is text.
 ```
 The moral of the story is that markdown is orders of magnitude easier than latex. 
 One can practically learn it in less 10 minutes. But make no mistake, Markdown
-is not as powerful as latex. This is where this template comes into play, It
+is not as powerful as latex. This is where this template comes into play, it
 make use of `pandoc` software and convert the markdown text to latex text than
 apply some lengthy template and sprinkle some magic dust.
 
@@ -73,13 +73,13 @@ Out of the box, you will also get the following done automatically:
 - Bibliography(references) handling/numbering.
 - Generating Table of contents.
 - Figures numbering handling.
-- Text reflowig.
+- Text reflowing.
 
 Plus if you know latex, you can edit the tex template and add more to it :)
 
-if you don't, you can completely avoid latex, but it will be the best available option
-when writing math equations (embdded inside the markdown), other options is to
-use mathjax.
+if you don't, you can completely avoid latex, but it will be the best available
+option when writing math equations (embedded inside the markdown), other options
+is to use mathjax.
 
 ## So how can I use it?
 
@@ -90,25 +90,25 @@ If you got some references put it in `thesis.bib` file
 ## But I don't know markdown :(
 
 Markdown is much much easier to learn given no prior knowledge with markdown
-that learning how to use google doc with out knowing anything about office
+that learning how to use google doc without knowing anything about office
 packages.
 I bet you can learn it in less than 10 minutes starting from
 [here](https://guides.github.com/features/mastering-markdown/)
 
-## But that doesn't tell anything about bibloigraphy ?
+## But that doesn't tell anything about bibliography ?
 
-For biblography you can use your faviorite tool for bib file managing, I use
+For bibliography you can use your favourite tool for bib file managing, I use
 [Jabref](http://www.jabref.org/). It is very intuitive to use, All you have to
 do is just add entries with (book/paper) name and author you want to reference
-and a bibtexkey.. it is just a random string that will resemble the reference
+and a bibtexkey, it is just a random string that will resemble the reference
 in the markdown files.
 ![jabref](JabRef.png)
-In the markdown file lets say we wan to reference 4th article in the picture
+In the markdown file let's say we wan to reference 4th article in the picture
 above, its bibtexkey is `Woerndl2017`
-we will place this  `[@Woerndl2017]` where ever we want to make the reference
+we will place this  `[@Woerndl2017]` wherever we want to make the reference
 
 ```
-One of the greatest places recommend to visit is Mauritius[@Woerndl2017]
+One of the greatest places recommend visiting is Mauritius[@Woerndl2017]
 ```
 
 ## How is the project structured?
