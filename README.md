@@ -126,9 +126,10 @@ root # dnf -y install texlive-xetex-def texlive-collection-xetex
 ```
 
 
-The good news is that **you don't have to install anything locally**!
+The good news is that **you don't have to install anything locally**! Actually you are encouraged not to.
 
-you can clone the project to [gitlab](gitlab.com) and it will generate the pdf to you on every push to the repo :)
+You can clone the project from [gitlab](https://gitlab.com/oddcoder/GP_Template)
+and it will generate the pdf to you on every edit the repo automatically :)
 
-Here is me building the project:
+Here is me building the project on my own machine locally:
 [![asciicast](https://asciinema.org/a/enKBDkTHHnM3QEPK3DbrWgTBu.png)](https://asciinema.org/a/enKBDkTHHnM3QEPK3DbrWgTBu)
