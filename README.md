@@ -163,7 +163,7 @@ Here is me building the project on my own machine locally after installing all n
 The good news is that **you don't have to install anything locally**! Actually
 you are encouraged not to.
 
-You can clone the project from [gitlab](https://gitlab.com/oddcoder/GP_Template)
+You can fork the project from [gitlab](https://gitlab.com/oddcoder/GP_Template)
 and it will generate the pdf to you on every edit the repo automatically :)
 
 ![downloading pdf from gitlab](gitlab.png)
