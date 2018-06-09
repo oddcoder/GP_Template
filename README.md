@@ -2,7 +2,7 @@
 
 ## why would you use it?
 
-The editor (person who is responsible in editing text) will not have to work
+The editor (person whose responsibility is editing text) will not have to work
 with Latex. Instead, he will be dealing with markdown files just like this
 read-me.
 
