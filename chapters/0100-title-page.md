@@ -3,16 +3,16 @@
         \vspace*{2.5cm}
 
         \huge
-	My lovely Thesis Title:\\
+	Thesis typesetting automation:\\
 	\large
-	\textit{And subtitle}\\
+	\textit{Using Gitlab CI}\\
 
         \vspace{1.5cm}
 
         \Large
-        The hardworker student \\
-	The lucky guy\\
-	Moving with momentun student\\
+        Ahmed Mohamed Abd El Mawgood \\
+	Add your name here \\
+	Or here :)\\
 
         \vspace{1.5cm}
 

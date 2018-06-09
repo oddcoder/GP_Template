@@ -1,32 +1,89 @@
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porttitor leo a diam sollicitudin tempor id eu nisl. Nisi vitae suscipit tellus mauris a. Erat velit scelerisque in dictum non consectetur a erat nam. Eget egestas purus viverra accumsan. Tortor dignissim convallis aenean et. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Suspendisse ultrices gravida dictum fusce ut. Amet nulla facilisi morbi tempus iaculis urna. Mattis molestie a iaculis at erat pellentesque adipiscing commodo elit. Senectus et netus et malesuada fames ac turpis egestas integer. Tellus in hac habitasse platea dictumst vestibulum. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Senectus et netus et malesuada fames.
 
-## Section
+## Why would you use this script/template?
 
-Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Vulputate sapien nec sagittis aliquam malesuada. Pretium viverra suspendisse potenti nullam ac. Suspendisse in est ante in nibh mauris. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Fermentum leo vel orci porta non pulvinar neque laoreet. Etiam erat velit scelerisque in dictum non consectetur a. In aliquam sem fringilla ut morbi tincidunt augue interdum. Diam vulputate ut pharetra sit amet aliquam id. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Risus viverra adipiscing at in tellus integer feugiat.
+The editor (person whose responsibility is editing text) will not have to work
+with \LaTeX. Instead, he will be dealing with markdown files just like this
+read-me.
+While I am aware that there is another type of software like google docs,
+MS office and others, but \LaTeX is different, here is why quoted from stack
+exchange:
 
-### Subsection
+> One of the advantages of \LaTeX over other more traditional systems is the high
+> typographical quality of the documents that you will be able to produce. This
+> is particularly true for documents that are heavy on mathematics, but
+> documents for any other area could also take advantage of these qualities.
 
-Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. In massa tempor nec feugiat nisl. Lectus sit amet est placerat. Gravida rutrum quisque non tellus orci ac auctor augue. Tempus imperdiet nulla malesuada pellentesque. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Id semper risus in hendrerit gravida rutrum. Aliquam sem et tortor consequat id porta. Est velit egestas dui id ornare. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Neque sodales ut etiam sit amet. Massa ultricies mi quis hendrerit dolor magna eget est lorem. Sit amet nisl purus in mollis nunc sed id. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis.
+> A less obvious advantage, but much more important, is that \LaTeX allows you to
+> clearly separate the content from the format of your document. As a writer
+> (scientist, researcher or not), this gives you the opportunity to focus on
+> the “what”, the creative part of your work, rather than the “how” is
+> it going to look printed out in paper (that is the work of \LaTeX document
+> class designers).
 
-## Another section
+> \LaTeX is intended to focus on document structure rather than appearance. Of
+> course, some set up is needed to get the correct appearance, but once it is
+> done most of the source you write is focused on structure. For example, there
+> are commands such as \section for document structure rather than making
+> everything bold, italic or whatever. This structured approach helps when you
+> want to do things that are repetitive, as the formatting is always taken care
+> of 'behind the scenes'.
 
-In est ante in nibh mauris cursus mattis molestie a. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Feugiat sed lectus vestibulum mattis ullamcorper. Blandit cursus risus at ultrices mi. Arcu non sodales neque sodales ut etiam sit. Scelerisque viverra mauris in aliquam sem. Elit pellentesque habitant morbi tristique senectus et netus et. Auctor eu augue ut lectus arcu bibendum at. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Malesuada fames ac turpis egestas integer eget aliquet. Egestas sed sed risus pretium quam. Arcu dictum varius duis at consectetur lorem donec massa sapien. In massa tempor nec feugiat nisl pretium fusce. Gravida cum sociis natoque penatibus. Nullam non nisi est sit. Ullamcorper sit amet risus nullam eget felis.
+### So, I am going to type \LaTeX?
 
-Tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Aliquam sem et tortor consequat id. Cras ornare arcu dui vivamus arcu felis. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Adipiscing diam donec adipiscing tristique risus. Arcu non odio euismod lacinia at quis risus sed vulputate. Gravida neque convallis a cras semper auctor neque. Turpis massa tincidunt dui ut ornare lectus. Adipiscing commodo elit at imperdiet dui accumsan. Habitant morbi tristique senectus et netus et malesuada fames. Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Amet massa vitae tortor condimentum lacinia quis. Quis lectus nulla at volutpat diam ut. Vitae purus faucibus ornare suspendisse sed. Posuere ac ut consequat semper viverra. Eget felis eget nunc lobortis mattis.
+No, that is where this template and automation script goes in :). You are
+going to type Markdown and let the magic happens Mark down will get converted
+to \LaTeX and then to PDF generating a beautiful looking PDF file.
 
-Urna et pharetra pharetra massa. Sed adipiscing diam donec adipiscing tristique risus nec. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Id aliquet risus feugiat in ante. Pharetra diam sit amet nisl suscipit. Ornare aenean euismod elementum nisi. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Etiam sit amet nisl purus. Lectus quam id leo in vitae. Diam vel quam elementum pulvinar etiam non quam lacus. Sit amet est placerat in egestas erat. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Bibendum est ultricies integer quis auctor elit sed vulputate. Facilisis volutpat est velit egestas dui. Tempor nec feugiat nisl pretium. At imperdiet dui accumsan sit amet nulla facilisi. Interdum consectetur libero id faucibus nisl tincidunt eget nullam non.
+### so that is about \LaTeX, now why would I use Markdown instead?
 
-Ultricies mi eget mauris pharetra et ultrices neque. Diam donec adipiscing tristique risus nec feugiat in fermentum. Odio morbi quis commodo odio aenean. Orci dapibus ultrices in iaculis nunc sed augue. Habitant morbi tristique senectus et netus et malesuada fames. Viverra suspendisse potenti nullam ac. Lacus viverra vitae congue eu consequat ac felis. Egestas quis ipsum suspendisse ultrices gravida dictum. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Id interdum velit laoreet id. Et magnis dis parturient montes nascetur ridiculus mus mauris. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Et tortor at risus viverra adipiscing at in.
+The source code of the above sub-section in Markdown will look like this:
 
+```markdown
+### So, I am going to type \LaTeX?
 
-$$x^2+y^2=1$$
+No, that is where this template and automation script
+goes in :). You are going to type Markdown and let the
+magic happens Mark down will get converted to \LaTeX
+and then to PDF generating a beautiful looking PDF file.
+```
 
-Quisque id diam vel quam elementum. Ornare aenean euismod elementum nisi quis. Morbi tincidunt augue interdum velit euismod. Elit at imperdiet dui accumsan. Proin sed libero enim sed faucibus turpis in. Integer vitae justo eget magna fermentum iaculis eu. Potenti nullam ac tortor vitae. Donec adipiscing tristique risus nec feugiat in fermentum posuere. At augue eget arcu dictum varius duis at consectetur lorem. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Fames ac turpis egestas integer eget. Consectetur adipiscing elit pellentesque habitant. Eu sem integer vitae justo eget magna fermentum. Luctus venenatis lectus magna fringilla urna.
+However, in latex it will look something like this:
 
-Ac tincidunt vitae semper quis. Non tellus orci ac auctor augue. Nunc mi ipsum faucibus vitae. Tellus elementum sagittis vitae et leo duis ut diam quam. Gravida dictum fusce ut placerat orci nulla. Dui ut ornare lectus sit amet. Volutpat blandit aliquam etiam erat velit scelerisque in. Eget dolor morbi non arcu risus quis varius. Nibh sit amet commodo nulla facilisi. Neque viverra justo nec ultrices. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Tristique magna sit amet purus gravida quis blandit turpis cursus. Ultricies mi quis hendrerit dolor magna eget est lorem ipsum. Arcu cursus vitae congue mauris rhoncus aenean vel. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Sed risus pretium quam vulputate dignissim suspendisse in est. Massa sed elementum tempus egestas sed sed risus pretium quam. Donec ultrices tincidunt arcu non sodales neque sodales.
+```tex
+\documentclass{article}
+    \usepackage[margin=0.7in]{geometry}
+    \usepackage[parfill]{parskip}
+    \usepackage[utf8]{inputenc}
+    \usepackage{amsmath,amssymb,amsfonts,amsthm}
+\begin{document}
+\title{So, I am going to type \LaTeX?}
+No, that is where this template and automation script
+goes in :). You are going to type Markdown and let the
+magic happens Mark down will get converted to \LaTeX
+and then to PDF generating a beautiful looking PDF file.
+\end{document}
+```
+The moral of the story is that markdown is orders of magnitude easier than
+\LaTeX. One can practically learn it in less 10 minutes. But make no mistake,
+Markdown is not as powerful as \LaTeX. This is where this template comes into
+play, it make use of pandoc software and convert the markdown text to \LaTeX text
+than apply some lengthy template and sprinkle some magic dust.
 
-Risus [IMPORTANT LINK](google.com) adipiscing at in. Adipiscing at in tellus integer feugiat. Morbi tristique senectus et netus et malesuada fames ac. Sodales ut eu sem integer vitae justo. Aenean sed adipiscing diam donec adipiscing tristique risus. Diam donec adipiscing tristique risus. Convallis convallis tellus id interdum velit laoreet id donec. Amet venenatis urna cursus eget nunc. Eleifend mi in nulla posuere. Ante metus dictum at tempor commodo ullamcorper a. Et tortor consequat id porta nibh venenatis cras sed. Et egestas quis ipsum suspendisse ultrices gravida. Non curabitur gravida arcu ac tortor dignissim convallis aenean. Eros in cursus turpis massa tincidunt. Turpis in eu mi bibendum neque egestas. Velit scelerisque in dictum non consectetur. Nunc consequat interdum varius sit amet mattis vulputate. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+Out of the box, you will also get the following done automatically:
 
-![pointless cat picture](../pictures/cat.jpg)
+- Formatting text and editing fonts.
+- Code coloring for almost every language you can use.
+- Page numbering.
+- Chapters numbering
+- Bibliography(references) handling/numbering.
+- Generating Table of contents.
+- Figures numbering handling.
+- Text reflowing.
+
+Plus if you know \LaTeX, you can edit the tex template and add more to it :)
+
+If you don't, you can completely avoid \LaTeX, but it will be the best available
+option when writing math equations (embedded inside the markdown), other options
+is to use [mathjax](https://www.mathjax.org/).

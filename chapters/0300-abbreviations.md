@@ -1,9 +1,9 @@
 # Abbreviations {.unnumbered}
 
 \begin{tabbing}
-\textbf{API}~~~~~~~~~~~~~ \= \textbf{A}pplication \textbf{P}rogramming \textbf{I}interface\\
-\textbf{CPU} \> \= \textbf{C}entral \textbf{P}rocessing \textbf{U}nit\\
-\textbf{RAM} \> \= \textbf{R}andom \textbf{A}ccess \textbf{M}emory\\
+\textbf{CI}~~~~~~~~~~~~~ \= \textbf{C}ontinuous \textbf{I}ntegration\\
+\textbf{MD} \> \= \textbf{M}ark \textbf{D}own\\
+\textbf{PDF} \> \= \textbf{P}ortable \textbf{D}ocument \textbf{F}ormat\\
 \end{tabbing}
 
 \newpage
