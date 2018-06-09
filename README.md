@@ -86,6 +86,31 @@ use mathjax.
 Just add some chapters to `chapters` folder, pictures to `pictures` folder.
 If you got some references put it in `thesis.bib` file
 
+
+## But I don't know markdown :(
+
+Markdown is much much easier to learn given no prior knowledge with markdown
+that learning how to use google doc with out knowing anything about office
+packages.
+I bet you can learn it in less than 10 minutes starting from
+[here](https://guides.github.com/features/mastering-markdown/)
+
+## But that doesn't tell anything about bibloigraphy ?
+
+For biblography you can use your faviorite tool for bib file managing, I use
+[Jabref](http://www.jabref.org/). It is very intuitive to use, All you have to
+do is just add entries with (book/paper) name and author you want to reference
+and a bibtexkey.. it is just a random string that will resemble the reference
+in the markdown files.
+![jabref](JabRef.png)
+In the markdown file lets say we wan to reference 4th article in the picture
+above, its bibtexkey is `Woerndl2017`
+we will place this  `[@Woerndl2017]` where ever we want to make the reference
+
+```
+One of the greatest places recommend to visit is Mauritius[@Woerndl2017]
+```
+
 ## How is the project structured?
 
 ```
