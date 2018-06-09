@@ -1,0 +1,16 @@
+image: fedora:latest
+PDF:
+  script:
+    - dnf -y update && dnf clean all
+    - dnf -y install pandoc make zip texlive-collection-basic texlive-xetex 
+    - dnf -y install texlive-collection-latexrecommended texlive-collection-latex
+    - dnf -y install texlive-collection-bibtexextra texlive-collection-latexextra
+    - dnf -y install texlive-xetex-def texlive-collection-xetex
+    - make zip
+  artifacts:
+    paths:
+      - "build/pdf/*"
+      - "build/*.zip"
+    expire_in: 2 week
+
+
