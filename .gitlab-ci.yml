@@ -2,10 +2,10 @@ Fedora:
   image: fedora:latest
   script:
     - dnf -y update && dnf clean all
-    - dnf -y install pandoc make zip texlive-collection-basic texlive-xetex 
-    - dnf -y install texlive-collection-latexrecommended texlive-collection-latex
-    - dnf -y install texlive-collection-bibtexextra texlive-collection-latexextra
-    - dnf -y install texlive-xetex-def texlive-collection-xetex
+    - dnf -y install texlive-collection-latexextra texlive-collection-basic
+    - dnf -y install texlive-collection-latexrecommended make zip pandoc  
+    - dnf -y install texlive-collection-bibtexextra texlive-collection-latex 
+    - dnf -y install texlive-xetex-def texlive-collection-xetex texlive-xetex
     - make zip
   artifacts:
     paths:
@@ -16,8 +16,9 @@ Fedora:
 Ubuntu:
   image: ubuntu:latest
   script:
-    - DEBIAN_FRONTEND=noninteractive apt-get -y update
-    - DEBIAN_FRONTEND=noninteractive apt-get install -y texlive-latex-base texlive-latex-extra texlive-xetex pandoc make zip
+    - export DEBIAN_FRONTEND=noninteractive 
+    - apt-get -y update && apt-get -y install pandoc make zip
+    - apt-get install -y texlive-latex-base texlive-latex-extra texlive-xetex
     - make zip
   artifacts:
     paths:
