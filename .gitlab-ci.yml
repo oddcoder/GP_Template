@@ -1,17 +1,3 @@
-Fedora:
-  image: fedora:latest
-  script:
-    - dnf -y update && dnf clean all
-    - dnf -y install texlive-collection-bibtexextra texlive-collection-latex 
-    - dnf -y install texlive-xetex-def texlive-collection-xetex texlive-xetex
-    - dnf -y install make zip pandoc
-    - make zip
-  artifacts:
-    paths:
-      - "build/pdf/*"
-      - "build/*.zip"
-    expire_in: 2 week
-
 Ubuntu:
   image: ubuntu:latest
   script:
@@ -26,4 +12,20 @@ Ubuntu:
       - "build/*.zip"
     expire_in: 2 week
 
+#TODO Delete everything starting from this line till the end of the file
+# You are welcome
 
+Fedora:
+  image: fedora:latest
+  script:
+    - dnf -y update && dnf clean all
+    - dnf -y install texlive-collection-latexextra texlive-collection-basic
+    - dnf -y install texlive-collection-latexrecommended make zip pandoc  
+    - dnf -y install texlive-collection-bibtexextra texlive-collection-latex 
+    - dnf -y install texlive-xetex-def texlive-collection-xetex texlive-xetex
+    - make zip
+  artifacts:
+    paths:
+      - "build/pdf/*"
+      - "build/*.zip"
+    expire_in: 2 week
