@@ -15,19 +15,6 @@ Ubuntu:
 #TODO If you are not sue Delete everything starting from this line till the end
 # of the file, You are welcome
 
-Arch:
-  image: archlinux:latest
-  script:
-      - pacman -S pandoc make zip texlive-most
-      - make zip
-  artifacts:
-    paths:
-      - "build/pdf/*"
-      - "build/*.zip"
-    expire_in: 2 week
-
-
-
 Debian:
   image: debian:latest
   script:
@@ -50,6 +37,20 @@ Fedora:
     - dnf -y install texlive-collection-latexrecommended make zip pandoc  
     - dnf -y install texlive-collection-bibtexextra texlive-collection-latex 
     - dnf -y install texlive-xetex-def texlive-collection-xetex texlive-xetex
+    - make zip
+  artifacts:
+    paths:
+      - "build/pdf/*"
+      - "build/*.zip"
+    expire_in: 2 week
+
+Gentoo:
+  image: gentoo/portage:latest
+  script:
+    - emerge --sync
+    - emerge --update --deep --newuse @world
+    - emerge --depclean
+    - emerge make zip pandoc texlive
     - make zip
   artifacts:
     paths:
