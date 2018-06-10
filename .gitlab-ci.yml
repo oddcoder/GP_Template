@@ -18,6 +18,7 @@ Ubuntu:
   script:
     - DEBIAN_FRONTEND=noninteractive apt-get -y update
     - DEBIAN_FRONTEND=noninteractive apt-get install -y texlive-latex-base texlive-latex-extra texlive-xetex pandoc make zip
+    - pandoc -h
     - make zip
   artifacts:
     paths:
