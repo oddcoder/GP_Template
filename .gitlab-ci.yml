@@ -12,8 +12,35 @@ Ubuntu:
       - "build/*.zip"
     expire_in: 2 week
 
-#TODO Delete everything starting from this line till the end of the file
-# You are welcome
+#TODO If you are not sue Delete everything starting from this line till the end
+# of the file, You are welcome
+
+Arch:
+  image: archlinux:latest
+  script:
+      - pacman -S pandoc make zip texlive-most
+      - make zip
+  artifacts:
+    paths:
+      - "build/pdf/*"
+      - "build/*.zip"
+    expire_in: 2 week
+
+
+
+Debian:
+  image: debian:latest
+  script:
+    - export DEBIAN_FRONTEND=noninteractive 
+    - apt-get -y update
+    - apt-get -y install pandoc make zip
+    - apt-get install -y texlive-xetex
+    - make zip
+  artifacts:
+    paths:
+      - "build/pdf/*"
+      - "build/*.zip"
+    expire_in: 2 week
 
 Fedora:
   image: fedora:latest
@@ -43,19 +70,4 @@ Mint:
       - "build/pdf/*"
       - "build/*.zip"
     expire_in: 2 week
-
-Debian:
-  image: debian:latest
-  script:
-    - export DEBIAN_FRONTEND=noninteractive 
-    - apt-get -y update
-    - apt-get -y install pandoc make zip
-    - apt-get install -y texlive-xetex
-    - make zip
-  artifacts:
-    paths:
-      - "build/pdf/*"
-      - "build/*.zip"
-    expire_in: 2 week
-
 
