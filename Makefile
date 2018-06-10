@@ -18,7 +18,8 @@ zip: clean dir A4
 
 
 dir:
-	mkdir -p $(BUILD)/{pdf,tex}
+	mkdir -p $(BUILD)/pdf
+	mkdir -p $(BUILD)/tex
 	tree
 clean:
 	rm -rf $(BUILD)
