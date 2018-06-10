@@ -16,8 +16,8 @@ Fedora:
 Ubuntu:
   image: ubuntu:latest
   script:
-    - apt-get update
-    - apt-get install -y texlive-latex-base texlive-latex-extra texlive-xetex pandoc make zip
+    - DEBIAN_FRONTEND=noninteractive apt-get -y update
+    - DEBIAN_FRONTEND=noninteractive apt-get install -y texlive-latex-base texlive-latex-extra texlive-xetex pandoc make zip
     - make zip
   artifacts:
     paths:
