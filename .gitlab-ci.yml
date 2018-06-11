@@ -44,20 +44,6 @@ Fedora:
       - "build/*.zip"
     expire_in: 2 week
 
-Gentoo:
-  image: gentoo/portage:latest
-  script:
-    - emerge --sync
-    - emerge --update --deep --newuse @world
-    - emerge --depclean
-    - emerge make zip pandoc texlive
-    - make zip
-  artifacts:
-    paths:
-      - "build/pdf/*"
-      - "build/*.zip"
-    expire_in: 2 week
-
 Mint:
   image: vcatechnology/linux-mint:latest
   script:
