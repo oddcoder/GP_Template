@@ -10,7 +10,7 @@ NATBIB = --natbib -V biblio-files:$(shell pwd)/$(BIB_FILE)
 A5SIZE = -V papersize:a5
 ARGS = $(NATBIB) $(MATH_FORMULAS) $(TEMPLATE)
 ARTIFACT=$(shell date).zip
-all: dir A4
+all: dir A4 docx
 
 zip: clean dir A4
 	zip -r "$(ARTIFACT)" $(BUILD)
@@ -20,9 +20,12 @@ zip: clean dir A4
 dir:
 	mkdir -p $(BUILD)/pdf
 	mkdir -p $(BUILD)/tex
+	mkdir -p $(BUILD)/docx
 clean:
 	rm -rf $(BUILD)
 
+docx:
+	pandoc $(ARGS) -V documentclass=$(LATEX_CLASS) -V linkcolor=blue --highlight-style pygments $(CHAPTERS) -o $(BUILD)/docx/$(OUTPUT_FILENAME)_A4.docx
 
 A4:
 	pandoc $(ARGS) -V documentclass=$(LATEX_CLASS) -V linkcolor=blue --highlight-style pygments $(CHAPTERS) -o $(BUILD)/tex/$(OUTPUT_FILENAME)_A4.tex
